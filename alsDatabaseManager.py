@@ -8,8 +8,8 @@ import os
 def createUserAnimeDatabase():
     mydb = mysql.connector.connect(
       host="localhost",
-      user="brian",
-      password="Kyh02031!"
+      user="userName",
+      password="Passw*rd"
     )
     mycursor = mydb.cursor()
     mycursor.execute("CREATE DATABASE userAnimeRating")
